@@ -1,0 +1,55 @@
+@use "sass:color";
+
+.home-header {
+  height: 534px;
+  margin-right: 150px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+
+  .home-header-img {
+    position: relative;
+    width: 1368px;
+    height: 963px;
+  }
+
+  .home-header-content {
+    width: 674px;
+    gap: 30px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-header-title {
+    line-height: 3rem;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .home-header-buttons {
+    width: 644px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .button {
+    width: 310px;
+    height: 120px;
+    border: 1px solid $textColor;
+    color: $textColor;
+    font-size: 1.3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+      width: 130px;
+      display: inline-block;
+    }
+
+  }
+
+}

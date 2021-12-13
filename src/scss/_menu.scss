@@ -1,0 +1,50 @@
+@use "sass:color";
+
+.header-container {
+  background-color: $backgroundColorLight;
+  margin-top: 20px;
+
+  .header-container-lists {
+    margin: 0 auto;
+    width: 1220px;
+  }
+
+  .header-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-list1, .nav-list2 {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    text-decoration: none;
+  }
+
+  .nav-list1 {
+    color: $textColorLight;
+    font-size: 0.875rem;
+    &:hover {
+      background: $backgroundColorLight;
+    }
+  }
+
+  .nav-list2 {
+    font-size: 1rem;
+  }
+
+  .list-el:hover {
+    border: 1px solid black;
+    padding: 5px 15px;
+    background: $backgroundColorLight;
+  }
+
+  .list-el-yellow {
+    border: 1px solid $colorYellow;
+    padding: 5px 15px;
+    &:hover {
+      background: lighten($colorYellow, 35%);
+    }
+  }
+}
