@@ -4,6 +4,7 @@
 
   .three-columns {
     width: 1574px;
+    margin-left: 110px;
     display: flex;
     justify-content: space-between;
 
@@ -19,7 +20,6 @@
     font: $font-base;
     font-weight: 300;
     color: $colorDarkYellow;
-    //gap: 20px;
   }
   .col-number {
     font-size: 90px
