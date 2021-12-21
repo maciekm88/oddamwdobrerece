@@ -7,7 +7,7 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 41px;
-  .h1 {
+  h1 {
     font-size: 38px;
     font-family: $font-base;
     font-weight: 400;
@@ -47,7 +47,6 @@
       height: 1px;
       width: 70px;
       background-color: $darkSpanColor;
-      //margin: 0 auto 15px auto;
       text-align: center;
     }
   }

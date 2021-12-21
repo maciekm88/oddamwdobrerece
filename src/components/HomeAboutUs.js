@@ -1,12 +1,14 @@
 import React from 'react';
 import signature from "../assets/Signature.svg"
 import people from "../assets/People.jpg"
+import decoration from "../assets/Decoration.svg";
 
 const HomeAboutUs = () => {
     return (
         <section id="home-about-us" className="home-about-us">
             <div className="home-about-us-content">
                 <h1>"O nas"</h1>
+                <span className="decoration"><img src={decoration} alt="decoration sign" /></span>
                 <p className="about-us-content">
                     Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery.
                     Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip.
